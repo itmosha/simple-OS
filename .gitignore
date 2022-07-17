@@ -2,3 +2,4 @@
 cmake-build-debug
 main.c
 CMakeLists.txt
+simple_boot
