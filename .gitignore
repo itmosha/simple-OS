@@ -1,7 +1,7 @@
+*
+!*.*
+!*/
 .idea
 cmake-build-debug
 main.c
 CMakeLists.txt
-src/boot_section_main
-src/bootsector_strings_output/bootsector_print
-src/bootsector_strings_output/bootsector_print_hex
