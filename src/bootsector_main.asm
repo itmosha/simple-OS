@@ -15,9 +15,9 @@
 
     jmp $
 
-%include "src/bootsector_strings_output/bootsector_print.asm"
+%include "src/bootsector_strings_output/bootsector_string_print.asm"
 %include "src/bootsector_strings_output/bootsector_print_hex.asm"
-%include "src/bootsector_disk.asm"
+%include "src/bootsector_disk_loader.asm"
 
 times 510-($-$$) db 0
 dw 0xaa55
