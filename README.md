@@ -5,3 +5,5 @@ This project is heavily inspired by [this book](https://www.cs.bham.ac.uk/~exr/l
 To build and run use:
 
 > ./build_run.sh
+
+The description will be implemented soon :)
