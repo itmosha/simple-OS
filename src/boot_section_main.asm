@@ -13,8 +13,8 @@ call print_hex
 
 jmp $
 
-%include "bootsector_strings_output/bootsector_print.asm"
-%include "bootsector_strings_output/bootsector_print_hex.asm"
+%include "src/bootsector_strings_output/bootsector_print.asm"
+%include "src/bootsector_strings_output/bootsector_print_hex.asm"
 
 HELLO_MESSAGE:
     db 'Hello, world!', 0
